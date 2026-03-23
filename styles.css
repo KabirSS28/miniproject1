@@ -367,6 +367,13 @@ img {
   color: var(--muted);
 }
 
+.card-link-text {
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
 .forms-stack {
   display: grid;
   gap: 26px;
