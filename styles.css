@@ -268,10 +268,20 @@ img {
 }
 
 .video-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--line);
   border-radius: 18px;
   overflow: hidden;
+  transition: 0.25s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(110, 231, 249, 0.5);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
 }
 
 .video-placeholder {
@@ -283,8 +293,19 @@ img {
   padding: 16px;
   color: var(--text);
   font-weight: 700;
+  position: relative;
   background:
     linear-gradient(135deg, rgba(110, 231, 249, 0.12), rgba(124, 58, 237, 0.16));
+}
+
+.video-placeholder::after {
+  content: "▶ Watch on Instagram";
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .about-grid {
