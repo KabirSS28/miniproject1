@@ -6,9 +6,9 @@ This project is a professional portfolio website built for a digital campaign ma
 
 The website includes four main sections:
 - **Home** – Introduction, background, and key highlights
-- **Work** – Campaign examples organized by industry (sports, gambling, music)
+- **Work** – Campaign examples organized by industry 
 - **About** – Professional background and client reviews
-- **Contact** – A structured system where users choose between three options (small campaign, large campaign, or creator network) and are redirected to separate pages with specific forms
+- **Contact** – A structured system where users choose between three options and are redirected to separate pages with specific forms
 
 The site was built with a focus on responsiveness, smooth navigation, and a modern design aesthetic. It is designed for both desktop and mobile viewing.
 
