@@ -13,7 +13,7 @@ The website includes four main sections:
 The site was built with a focus on responsiveness, smooth navigation, and a modern design aesthetic. It is designed for both desktop and mobile viewing.
 
 ## Live Site
-- https://github.com/KabirSS28/miniproject1.git 
+https://kabirss28.github.io/miniproject1/
 
 ## What I Learned
 - How to design and structure a professional website for a real client
